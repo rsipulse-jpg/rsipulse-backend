@@ -18,7 +18,7 @@ MIN_VOL = float(os.getenv("MIN_VOL", "1000000"))   # liquidity floor (24h quote 
 
 # FREE mode — super basic, RSI only (period + threshold), uses liquidity filter
 FREE_RSI_PERIOD = int(os.getenv("FREE_RSI_PERIOD", "14"))
-FREE_RSI_THRESHOLD = float(os.getenv("FREE_RSI_THRESHOLD", "70"))  # e.g., 40 is conservative “weak/oversold”
+FREE_RSI_THRESHOLD = float(os.getenv("FREE_RSI_THRESHOLD", "50"))  # e.g., 40 is conservative “weak/oversold”
 
 # PREMIUM mode — richer triggers (RSI + EMA + Volume) + tight panic-dump
 RSI_PERIOD = int(os.getenv("RSI_PERIOD", "14"))
