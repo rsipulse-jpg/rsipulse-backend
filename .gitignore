@@ -17,7 +17,7 @@ __pycache__/
 .eggs/
 
 # ----------------------------
-# Virtual environments (extra)
+# Virtual environments
 # ----------------------------
 .venv/
 ENV/
@@ -65,4 +65,15 @@ dmypy.json
 # OS
 # ----------------------------
 Thumbs.db
+
+# ----------------------------
+# Secrets & Config
+# ----------------------------
+.env
+.env.*
+*.secret
+*.key
+*.pem
+secrets.json
+config.yaml
 
