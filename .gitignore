@@ -1,3 +1,68 @@
-venv
-__pycache__
+# ----------------------------
+# Your existing rules
+# ----------------------------
+venv/
+__pycache__/
 .DS_Store
+
+# ----------------------------
+# Python
+# ----------------------------
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# ----------------------------
+# Virtual environments (extra)
+# ----------------------------
+.venv/
+ENV/
+env/
+
+# ----------------------------
+# Logs & outputs
+# ----------------------------
+*.log
+*.out
+*.err
+
+# ----------------------------
+# Build / packaging
+# ----------------------------
+build/
+dist/
+pip-wheel-metadata/
+.installed.cfg
+
+# ----------------------------
+# Testing / coverage
+# ----------------------------
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ----------------------------
+# Type checking
+# ----------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ----------------------------
+# IDE / Editors
+# ----------------------------
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# ----------------------------
+# OS
+# ----------------------------
+Thumbs.db
+
